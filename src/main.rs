@@ -3,7 +3,8 @@
 // mod functions;
 // mod control_flow;
 // mod fibonacci;
-mod ownership;
+// mod ownership;
+mod reference_ownership;
 
 fn main() {
     // variables::run();
@@ -11,5 +12,6 @@ fn main() {
     // functions::run();
     // control_flow::run();
     // fibonacci::run();
-    ownership::run();
+    // ownership::run();
+    reference_ownership::run();
 }
