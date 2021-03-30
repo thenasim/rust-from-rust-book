@@ -5,7 +5,8 @@
 // mod fibonacci;
 // mod ownership;
 // mod reference_ownership;
-mod slices;
+// mod slices;
+mod structs;
 
 fn main() {
     // variables::run();
@@ -15,5 +16,6 @@ fn main() {
     // fibonacci::run();
     // ownership::run();
     // reference_ownership::run();
-    slices::run();
+    // slices::run();
+    structs::run();
 }
