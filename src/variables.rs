@@ -12,5 +12,5 @@ pub fn run() {
   // ? Shadowing
   let spaces = "    ";
   let spaces = spaces.len();
-  println!("Total spaces {}", spaces);
+  println!("Total spaces {}", spaces + 2);
 }

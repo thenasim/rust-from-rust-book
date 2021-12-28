@@ -7,7 +7,8 @@
 // mod reference_ownership;
 // mod slices;
 // mod structs;
-mod structs_example;
+// mod structs_example;
+mod enums;
 
 fn main() {
     // variables::run();
@@ -19,5 +20,6 @@ fn main() {
     // reference_ownership::run();
     // slices::run();
     // structs::run();
-    structs_example::run();
+    // structs_example::run();
+    enums::run();
 }
